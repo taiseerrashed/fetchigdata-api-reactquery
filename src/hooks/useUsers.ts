@@ -12,7 +12,7 @@ const fetchUsers = async (): Promise<IUser[]> => {
     return response.data;
 }; 
 
-const useUsers = () => {
+export const useUsers = () => {
     return useQuery<IUser[], Error>(
         "users", 
         fetchUsers,

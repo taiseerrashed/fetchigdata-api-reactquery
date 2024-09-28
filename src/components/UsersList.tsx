@@ -1,5 +1,5 @@
 import { ClipLoader } from "react-spinners";
-import useUsers from "../hooks/useUsers"
+import { useUsers } from "../hooks/useUsers"
 
 interface IUsersListProps {
     selectedUserId: number | null;
